@@ -1,0 +1,15 @@
+INSERT INTO Students VALUES
+(1, 'Bhakti', 'bhakri@gmail.com', 13),
+(2, 'Pearl', 'pearl@gmail.com', 14),
+(3, 'Rose', 'rose@gmail.com', 15);
+
+INSERT INTO Courses VALUES
+(101, 'DBMS', 4),
+(102, 'Operating Systems', 4),
+(103, 'Computer Networks', 3);
+
+INSERT INTO Enrollments VALUES
+(1, 1, 101, 85),
+(2, 1, 102, 78),
+(3, 2, 101, 90),
+(4, 3, 103, 88);
